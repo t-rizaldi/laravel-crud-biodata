@@ -1,0 +1,104 @@
+@font-face {
+    font-family: praise;
+    src: url("../fonts/Praise-Regular.ttf");
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    .navbar-brand {
+        font-family: praise;
+        font-size: 50px;
+        color: #0d6efd;
+    }
+
+    .nav-link {
+        color: #0d6efd;
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+.hero {
+    position: relative;
+    margin-top: 150px;
+
+    .hero-title {
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+            color: #0d6efd;
+        }
+    }
+
+    .cta {
+        margin-top: 30px;
+
+        .btn-started {
+            font-weight: 600;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+
+            &:hover {
+                color: #000;
+                background-color: #ffff00;
+            }
+        }
+    }
+}
+
+.data {
+    position: relative;
+    margin-top: 100px;
+
+    .section-title {
+        h2 {
+            color: #0d6efd;
+            font-weight: 600;
+            font-size: 40px;
+        }
+    }
+
+    .list-data {
+        margin-top: 30px;
+    }
+}
+
+.detail {
+    position: relative;
+    margin-top: 150px;
+}
+
+.create {
+    position: relative;
+    margin-top: 150px;
+
+    .form-input {
+        padding: 10px 20px;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
+    }
+}
+
+footer {
+    position: relative;
+    margin-top: 100px;
+    align-content: center;
+    vertical-align: middle;
+
+    p {
+        color: #fff;
+        font-size: 20px;
+        padding: 20px;
+    }
+}
